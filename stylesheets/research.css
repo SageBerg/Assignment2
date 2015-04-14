@@ -1,0 +1,131 @@
+body {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+main {
+	background-color: lightgray;
+	font-family: "Courier New";
+}
+
+.question {
+	background-color: rgb(102, 224, 194);
+	color: white;
+	font-size: 16pt;
+	margin: 10px;
+	padding: 10px;
+}
+
+.all-elements {
+	background-color: rgb(255, 218, 69);
+	margin: 10px;
+}
+
+.ititle {
+	color: white;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+.idescription {
+	color: rgb(35, 35, 35);
+	font-size: 15pt;
+}
+
+.item {
+	width: 400px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.right-column {
+	float: right;
+}
+
+.item-image {
+	float: left;
+	margin: 10px;
+}
+
+.name {
+	color: white;
+	font-size: 40pt;
+	font-weight: bold;
+}
+
+.description {
+	color: white;
+	font-size: 20pt;
+}
+
+.MITpaper {
+	background-color: rgb(255, 102, 0);
+	color: white;
+	font-size: 20pt;
+	margin: 20px 10px;
+	padding: 10px;
+}
+
+.uses {
+	margin: 10px;
+}
+
+.use_v1 {
+	height: 120px;
+}
+
+.use_v2 {
+	background-color: rgb(159, 159, 159);
+	height: 110px;
+}
+
+.explanation {
+	width: 400px;
+	display: inline-block;
+	margin: 10px;
+	float: left;
+}
+
+.example {
+	width: 400px;
+	display: inline-block;
+	margin: 10px;
+	float: middle;
+}
+
+.use-image-right {
+	float: right;
+}
+
+.use-image-left {
+	float: left;
+}
+
+hr {
+	background-color: white; 
+	height: 3px; 
+	border: 0;
+}
+
+.uses-hr {
+	background-color: rgb(35, 35, 35);
+}
+
+.dashed {
+	color: rgb(35, 35, 35);
+	background-color:lightgray;
+	border: rgb(35, 35, 35) 4px dashed;
+	border-style: none none dashed;
+}
+
+.utitle {
+	font-size: 20pt;
+	font-weight: bold;
+	color: rgb(35, 35, 35);
+}
+
+.udescription {
+	font-size: 14pt;
+	color: rgb(35, 35, 35);
+}
