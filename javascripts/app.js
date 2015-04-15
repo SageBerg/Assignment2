@@ -48,7 +48,16 @@ var main = function () {
                 $content = $("<div>").append($input).append($button);
                /* Alternatively append() allows multiple arguments so the above
                 can be done with $content = $("<div>").append($input, $button); */
-            } else if ($('#search').attr('id')) {
+            } else if ($element.parent().is(":nth-child(6)"))  {
+                $name_input = $("<div>User Name: <input></div>"),
+                $password_input = $("<div>Password: <input></div>"),
+                $button = $("<button>").text("Log in");
+
+                $button.on("click", function () {
+                    
+                });
+                $content = $("<div>").append($name_input, $password_input, $button);
+            } else if ($element.parent().is(":nth-child(4)"))  {
                 // input a search keyword
                 $input = $("<input>"),
                 $button = $("<button>").text("Search");
@@ -74,9 +83,7 @@ var main = function () {
 
                 $content = $("<div>").append($input, $button);
             }
-
             $("main .content").append($content);
-
             return false;
         });
     });
