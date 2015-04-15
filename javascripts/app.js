@@ -73,9 +73,9 @@ var main = function () {
                 });
 
                 $content = $("<div>").append($input, $button);
-            } else if ($element.parent().is(":nth-child(6)"))  {
+            } else if ($element.parent().is(":nth-child(6)")) {
                 $name_input = $("<input>"),
-                $password_input = $("<input>"),
+                $password_input = $("<input type='password'>"),
                 $button = $("<button>").text("Log In");
 
                 $button.on("click", function () {
