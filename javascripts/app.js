@@ -82,7 +82,9 @@ var main = function () {
                     console.log('User Name: ' + $name_input.val() + '\nPassword: ' 
                         + $password_input.val());
                 });
-                $content = $("<div>").append($name_input, $password_input, $button);
+                $content = $("<div>").append("<div>User Name: ", $name_input, 
+                    "</div><div>Password: ", $password_input, "</div><div>", 
+                    $button, "</div>");
             } 
             $("main .content").append($content);
             return false;
